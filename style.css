@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+header p {
+    font-size: 14px;
+}
+
+nav {
+    background-color: #343a40;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+footer i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.search-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+.search-bar input[type="text"]:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.quick-searches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.breakfast {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.lunch {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+.dinner  {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.snacks {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.quick_search_text {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+    font-weight: bold;
+}
